@@ -1,17 +1,16 @@
-
 ---
 layout: page
 title: Scalable Salon Booking Platform
 description: A resilient microservices platform driven by event workflows, centralized routing, and secure access management.
-img: assets/img/salon_thumbnail.jpg
 importance: 2
 category: Backend & Distributed Systems
-github: https://github.com/yourusername/your-repo-name
+github: https://github.com/jackyToras/your-repo-name
 ---
 
 Designed and deployed RESTful microservices using a strictly decoupled, layered architecture (Controller-Service-Repository) to guarantee modularity and separation of concerns.
 
 ### Key Implementation Details
+
 - **Service Mesh & Routing:** Implemented dynamic service discovery using **Eureka Server** along with centralized edge routing and request filtering via an **API Gateway**.
 - **Asynchronous Workflows:** Developed event-driven workflows leveraging **RabbitMQ** to fully decouple core reservation booking, real-time notification streams, and billing systems.
 - **Data Sync & Payments:** Integrated Stripe webhooks to handle live transaction lifecycles, safely syncing state data across distributed MongoDB instances.
