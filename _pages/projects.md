@@ -1,64 +1,45 @@
 ---
-layout: projects
+layout: page
 title: projects
 permalink: /projects/
-description: Things I have built — backend systems, distributed architecture, and AI applications.
 nav: true
 nav_order: 2
-horizontal: true
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+## Projects
 
-{% else %}
+---
 
-<!-- Display projects without categories -->
+### Distributed Task Queue System
+**Java, Spring Boot, RabbitMQ, Docker**
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+Built a high-throughput distributed message queue for handling asynchronous background tasks efficiently. Implemented load-balancing algorithms to distribute workloads across multiple worker nodes.
 
-  <!-- Generate cards for each project -->
+[GitHub](https://github.com/jackyToras/Distributed-tasks-queue-system)
 
-{% if page.horizontal %}
+---
 
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+### Scalable Salon Booking Platform
+**Spring Boot, RabbitMQ, React.js, MongoDB, API Gateway, Stripe, Keycloak, Docker**
+
+Designed RESTful microservices using layered architecture. Implemented service discovery, async event-driven workflows, Stripe payments, Keycloak IAM, and Docker orchestration.
+
+[GitHub](https://github.com/jackyToras/salon-appointment-system)
+
+---
+
+### RAG Question Answering System
+**FastAPI, LangChain, ChromaDB, Python, Streamlit**
+
+Built a RAG-based architecture for contextual question answering over PDF documents using semantic search and vector embeddings.
+
+[GitHub](https://github.com/jackyToras/mistral-rag-system) · [Live](https://qnaragsystem.streamlit.app/)
+
+---
+
+### Cyber AI Network Intrusion Detection System
+**Python, Scikit-learn, Pandas, NumPy, Streamlit**
+
+ML pipeline for network intrusion detection achieving 96.4% accuracy. Won 3rd Position at Cyber AI Hackathon 2025, University of Derby, UK.
+
+[GitHub](https://github.com/jackyToras/NetworkIDS) · [Live](https://mlnetworkids.streamlit.app)
