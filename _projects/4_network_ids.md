@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title: Cyber AI Network Intrusion Detection System
@@ -8,7 +7,7 @@ category: AI Engineering
 github: https://github.com/jackyToras/your-repo-name
 ---
 
-Developed an advanced, real-time Network Intrusion Detection System (NIDS) designed to classify and flag malicious network packets and potential cyber threats[cite: 1]. This system won the **3rd Position (Innovation Award) at the Cyber AI Hackathon 2025** (hosted by the International University of Derby, UK)[cite: 1].
+Developed an advanced, real-time Network Intrusion Detection System (NIDS) designed to classify and flag malicious network packets and potential cyber threats. This system won the **3rd Position (Innovation Award) at the Cyber AI Hackathon 2025** (hosted by the International University of Derby, UK).
 
 ### Key Implementation Details
 
