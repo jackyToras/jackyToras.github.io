@@ -4,7 +4,7 @@ title: RAG Question Answering System
 description: FastAPI, LangChain, ChromaDB, Python, Streamlit
 importance: 3
 category: AI Engineering
-github: https://github.com/jackyToras/your-repo-name
+github: https://github.com/jackyToras/mistral-rag-system
 ---
 
 Developed a production-ready Retrieval-Augmented Generation (RAG) architecture tailored for highly contextual semantic question-answering over unstructured PDF documentation.
