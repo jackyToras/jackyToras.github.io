@@ -1,7 +1,7 @@
 ---
 layout: page
 title: RAG Question Answering System
-description: An intelligent semantic search and document ingestion architecture optimized for querying unstructured data.
+description: FastAPI, LangChain, ChromaDB, Python, Streamlit
 importance: 3
 category: AI Engineering
 github: https://github.com/jackyToras/your-repo-name
