@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Cyber AI Network Intrusion Detection System
-description: An award-winning, AI-driven network security backend utilizing Ensemble Learning on the CICIDS benchmark dataset to classify malicious traffic in real-time.
+description: Python, Scikit-learn, Pandas, NumPy, Streamlit
 importance: 4
 category: AI Engineering
-github: https://github.com/jackyToras/your-repo-name
+github: https://github.com/jackyToras/NetworkIDS
 ---
 
 Developed an advanced, real-time Network Intrusion Detection System (NIDS) designed to classify and flag malicious network packets and potential cyber threats. This system won the **3rd Position (Innovation Award) at the Cyber AI Hackathon 2025** (hosted by the International University of Derby, UK).
