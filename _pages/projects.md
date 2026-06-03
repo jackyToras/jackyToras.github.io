@@ -5,7 +5,7 @@ permalink: /projects/
 description: Things I have built — backend systems, distributed architecture, and AI applications.
 nav: true
 nav_order: 2
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
