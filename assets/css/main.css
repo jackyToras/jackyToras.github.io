@@ -1,0 +1,21 @@
+/* assets/css/main.css */
+
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.about-left {
+  flex: 0 0 250px;
+  text-align: center;
+}
+
+.about-left img {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.about-right {
+  flex: 1;
+}
