@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: ABOUT
 permalink: /
 subtitle: "Backend Developer · Distributed Systems · AI Applications"
 profile:
