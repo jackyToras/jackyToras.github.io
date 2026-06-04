@@ -3,8 +3,6 @@ layout: about
 title: About
 permalink: /
 subtitle: "Backend Developer · Distributed Systems · AI Applications"
-nav: true
-nav_order: 1
 profile:
   align: left
   image: prof_pic.jpg
