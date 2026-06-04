@@ -3,10 +3,11 @@ layout: page
 title: CV
 permalink: /cv/
 nav: true
-nav_order: 5
+nav_order: 4
 ---
 
-<div style="text-align: center; margin: 40px 0;">
-<p>Download my CV as a PDF</p>
-<a href="/assets/pdf/utkarsh_cv.pdf" target="_blank" download style="padding: 10px 24px; background: #6c63ff; color: white; border-radius: 6px; text-decoration: none; font-weight: 600;">Download CV</a>
+<div style="text-align: right; margin-bottom: 10px;">
+<a href="/assets/pdf/utkarsh_cv.pdf" download>Download PDF</a>
 </div>
+
+<embed src="/assets/pdf/utkarsh_cv.pdf" width="100%" height="800px" type="application/pdf">
