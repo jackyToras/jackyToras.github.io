@@ -6,9 +6,6 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Utkarsh
 middle_name:
 last_name: Shaning
-contact_note: >
-  You can even add a little note about which of these is the best way to reach
-  you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Backend Developer · CS Student at JUIT · Distributed Systems & AI.
 footer_text: >
