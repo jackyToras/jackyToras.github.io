@@ -10,11 +10,6 @@ profile:
   image_circular: true
   more_info: >
     <p><i class="fas fa-map-marker-alt"></i> Raipur, Chhattisgarh, India</p>
-    <p><a href="https://www.linkedin.com/in/utkarsh-s-973885316" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
-    <p><a href="https://github.com/jackyToras" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
-    <p><a href="https://leetcode.com/u/Utkarshhh1605/" target="_blank"><i class="fas fa-code"></i> LeetCode</a></p>
-    <p><a href="https://codeforces.com/profile/Utkarsh1605" target="_blank"><i class="fas fa-laptop-code"></i> Codeforces</a></p>
-    <p><a href="https://x.com/Utkarshhh1605" target="_blank"><i class="fab fa-x-twitter"></i> X</a></p>
 
 news: false
 selected_papers: false
