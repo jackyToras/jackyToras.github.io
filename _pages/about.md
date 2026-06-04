@@ -3,7 +3,6 @@ layout: about
 title: about
 permalink: /
 subtitle: <p style="color: gray; margin: 4px 0;">Backend Developer · Distributed Systems · AI Applications</p>
-
 profile:
   align: left
   image: prof_pic.jpg
@@ -16,7 +15,6 @@ profile:
     <div style="margin: 6px 0;"><i class="fas fa-code"></i> <a href="https://leetcode.com/u/Utkarshhh1605/" target="_blank">LeetCode</a></div>
     <div style="margin: 6px 0;"><i class="fas fa-laptop-code"></i> <a href="https://codeforces.com/profile/Utkarsh1605" target="_blank">Codeforces</a></div>
     <div style="margin: 6px 0;"><i class="fab fa-x-twitter"></i> <a href="https://x.com/Utkarshhh1605" target="_blank">X</a></div>
-
 news: false
 selected_papers: false
 social: false
