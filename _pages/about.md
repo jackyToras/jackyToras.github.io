@@ -3,8 +3,6 @@ layout: about
 title: About
 permalink: /
 subtitle: "Backend Developer · Distributed Systems · AI Applications"
-nav: true
-nav_order: 1
 profile:
   align: left
   image: prof_pic.jpg
@@ -21,15 +19,9 @@ news: false
 selected_papers: false
 social: false
 ---
-
 <h4>About me</h4>
-
 Hey there! I'm **Utkarsh Shaning**, a pre-final year B.Tech Computer Science student at Jaypee University of Information Technology, Solan.
-
 I specialize in architecting highly scalable **Microservices** and robust Monolithic backends, with a focus on fault-tolerant, high-throughput **distributed systems** and **event-driven architectures**.
-
 Usually getting my hands dirty with Event Streaming & Message Queues — decoupling high-volume workflows using **RabbitMQ** to achieve low-latency asynchronous processing and strict eventual consistency. Service Mesh & Orchestration — Service Discovery (Eureka Server), centralized **API Gateways**, dynamic **Load Balancing**, and containerized multi-node orchestration via Docker. Security & System Resilience — Enterprise **IAM** via Keycloak, JWT-based RBAC, circuit breaker mechanisms for fault tolerance and zero-downtime deployments.
-
 With a knack for building production-grade **RAG** pipelines, optimizing semantic search via vector databases, managing text chunking/embedding strategies, and designing custom chat model wrappers exposed through high-performance FastAPI endpoints and interactive Streamlit user interfaces to seamlessly bridge the gap between heavy enterprise backends and intelligent AI applications.
-
 ** Won 3rd Position (Innovation Award)** at Cyber AI Hackathon 2025 — University of Derby, UK, supported by American Society for Engineers, USA. Team Cyra (T-009) among 100+ teams. <a href="/assets/pdf/cyberai-hackathon-2025.pdf" target="_blank">Certificate</a>
