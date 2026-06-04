@@ -28,9 +28,11 @@ social: false
 
 Hey there! I'm **Utkarsh Shaning**, a pre-final year B.Tech Computer Science student at Jaypee University of Information Technology, Solan.
 
-I specialize in architecting highly scalable Microservices and robust Monolithic backends, with a focus on fault-tolerant, high-throughput distributed systems and event-driven architectures.
+I specialize in architecting highly scalable **Microservices** and robust Monolithic backends, with a focus on fault-tolerant, high-throughput **distributed systems** and **event-driven architectures**.
 
-Usually getting my hands dirty with Event Streaming & Message Queues — decoupling high-volume workflows using RabbitMQ to achieve low-latency asynchronous processing and strict eventual consistency. Service Mesh & Orchestration — Service Discovery (Eureka Server), centralized API Gateways, dynamic Load Balancing, and containerized multi-node orchestration via Docker. Security & System Resilience — Enterprise IAM via Keycloak, JWT-based RBAC, circuit breaker mechanisms for fault tolerance and zero-downtime deployments.
+Usually getting my hands dirty with Event Streaming & Message Queues : decoupling high-volume workflows using **RabbitMQ** to achieve low-latency asynchronous processing and strict eventual consistency. 
+Service Mesh & Orchestration : Service Discovery (Eureka Server), centralized **API Gateways**, dynamic **Load Balancing**, and containerized multi-node orchestration via Docker.
+Security & System Resilience : Enterprise **IAM** via Keycloak, JWT-based RBAC, circuit breaker mechanisms for fault tolerance.
 
-With a knack for building production-grade RAG pipelines, optimizing semantic search via vector databases, managing text chunking/embedding strategies, and designing custom chat model wrappers exposed through high-performance FastAPI endpoints and interactive Streamlit user interfaces to seamlessly bridge the gap between heavy enterprise backends and intelligent AI applications.
+With a knack for building production-grade **RAG** pipelines, optimizing semantic search via vector databases, managing text chunking/embedding strategies, and designing custom chat model wrappers exposed through high-performance FastAPI endpoints and interactive Streamlit user interfaces to seamlessly bridge the gap between heavy enterprise backends and intelligent AI applications.
 
