@@ -1,7 +1,7 @@
 
 ---
 layout: page
-title: skills
+title: SKILLS
 permalink: /skills/
 nav: true
 nav_order: 3
