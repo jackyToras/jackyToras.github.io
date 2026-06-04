@@ -1,1 +1,21 @@
 
+---
+layout: page
+title: SKILLS
+permalink: /skills/
+nav: true
+nav_order: 3
+---
+
+<style>
+.skill-row { border-top: 1px solid #ddd; padding: 12px 0; }
+.skill-row .label { font-weight: 700; }
+.skill-row .val { color: gray; font-size: 0.9rem; }
+</style>
+
+<div class="skill-row"><h4 class="label">Languages</h4><div class="val">Java · Python</div></div>
+<div class="skill-row"><h4 class="label">Frameworks</h4><div class="val">Spring Boot · Spring MVC · FastAPI · LangChain</div></div>
+<div class="skill-row"><h4 class="label">Databases</h4><div class="val">MongoDB · MySQL</div></div>
+<div class="skill-row"><h4 class="label">Messaging & Distributed Systems</h4><div class="val">RabbitMQ</div></div>
+<div class="skill-row"><h4 class="label">Security</h4><div class="val">Keycloak · JWT · RBAC · Spring Security</div></div>
+<div class="skill-row"><h4 class="label">Dev Tools</h4><div class="val">Docker · Postman · Swagger/OpenAPI · Git · Streamlit</div></div>
