@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Backend Developer · Distributed Systems · AI Applications
+subtitle: <p style="color: gray; margin: 4px 0;">Backend Developer · Distributed Systems · AI Applications</p>
 
 profile:
   align: left
@@ -10,8 +10,6 @@ profile:
   image_circular: true
   more_info: >
     <style>.profile img { width: 180px !important; max-width: 180px !important; }</style>
-    <p style="font-weight: 700; font-size: 1.1rem; margin: 8px 0;">Utkarsh Shaning</p>
-    <p style="color: gray; margin: 4px 0;">Backend Developer</p>
     <div style="margin: 8px 0;"><i class="fas fa-map-marker-alt"></i> Raipur, Chhattisgarh, India</div>
     <div style="margin: 6px 0;"><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/utkarsh-s-973885316" target="_blank">LinkedIn</a></div>
     <div style="margin: 6px 0;"><i class="fab fa-github"></i> <a href="https://github.com/jackyToras" target="_blank">GitHub</a></div>
