@@ -18,7 +18,7 @@ profile:
 
 news: false
 selected_papers: false
-social: flase
+social: false
 ---
 
 <div class="flex flex-col md:flex-row md:space-x-8 items-start">
