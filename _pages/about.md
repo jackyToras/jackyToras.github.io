@@ -23,11 +23,6 @@ social: false
 
 <div class="flex flex-col md:flex-row md:space-x-8 items-start">
 
-  <!-- Left column -->
-  <div class="md:w-1/3 text-center">
-    <img src="{{ page.profile.image | relative_url }}" alt="Profile Picture" class="rounded-full w-48 mx-auto mb-4">
-  </div>
-
   <!-- Right column -->
   <div class="md:w-2/3">
     <h2 class="text-xl font-bold mb-4">Hey there! I'm Utkarsh Shaning</h2>
