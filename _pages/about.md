@@ -21,7 +21,6 @@ social: flase
   <!-- Left column -->
   <div class="md:w-1/3 text-center">
     <img src="{{ page.profile.image | relative_url }}" alt="Profile Picture" class="rounded-full w-48 mx-auto mb-4">
-    {{ page.profile.more_info }}
   </div>
 
   <!-- Right column -->
