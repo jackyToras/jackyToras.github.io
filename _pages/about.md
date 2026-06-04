@@ -3,6 +3,8 @@ layout: about
 title: About
 permalink: /
 subtitle: "Backend Developer · Distributed Systems · AI Applications"
+nav: true
+nav_order: 1
 profile:
   align: left
   image: prof_pic.jpg
@@ -21,6 +23,7 @@ social: false
 ---
 
 <h4>About me</h4>
+
 Hey there! I'm **Utkarsh Shaning**, a pre-final year B.Tech Computer Science student at Jaypee University of Information Technology, Solan.
 
 I specialize in architecting highly scalable **Microservices** and robust Monolithic backends, with a focus on fault-tolerant, high-throughput **distributed systems** and **event-driven architectures**.
