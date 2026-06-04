@@ -2,27 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: Backend Developer · Distributed Systems · AI Applications
-
+subtitle: "Backend Developer · Distributed Systems · AI Applications"
 profile:
   align: left
   image: prof_pic.jpg
   image_circular: true
   more_info: >
-    <style>.profile img { width: 150px !important; max-width: 180px !important; }</style>
     <div style="margin: 8px 0;"><i class="fas fa-map-marker-alt"></i> Raipur, Chhattisgarh, India</div>
     <div style="margin: 6px 0;"><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/utkarsh-s-973885316" target="_blank">LinkedIn</a></div>
     <div style="margin: 6px 0;"><i class="fab fa-github"></i> <a href="https://github.com/jackyToras" target="_blank">GitHub</a></div>
     <div style="margin: 6px 0;"><i class="fas fa-code"></i> <a href="https://leetcode.com/u/Utkarshhh1605/" target="_blank">LeetCode</a></div>
     <div style="margin: 6px 0;"><i class="fas fa-laptop-code"></i> <a href="https://codeforces.com/profile/Utkarsh1605" target="_blank">Codeforces</a></div>
     <div style="margin: 6px 0;"><i class="fab fa-x-twitter"></i> <a href="https://x.com/Utkarshhh1605" target="_blank">X</a></div>
-
 news: false
 selected_papers: false
 social: false
 ---
-
-## About me
 
 Hey there! I'm **Utkarsh Shaning**, a pre-final year B.Tech Computer Science student at Jaypee University of Information Technology, Solan.
 
