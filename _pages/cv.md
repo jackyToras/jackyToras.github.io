@@ -1,12 +1,12 @@
 ---
-layout: cv
-permalink: /cv/
+layout: page
 title: CV
+permalink: /cv/
 nav: true
 nav_order: 5
-cv_pdf: /assets/pdf/example_pdf.pdf # you can also use external links here
-cv_format: rendercv # options: rendercv, jsonresume
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
 ---
+
+<div style="text-align: center; margin: 40px 0;">
+<p>Download my CV as a PDF</p>
+<a href="/assets/pdf/utkarsh_cv.pdf" target="_blank" download style="padding: 10px 24px; background: #6c63ff; color: white; border-radius: 6px; text-decoration: none; font-weight: 600;">Download CV</a>
+</div>
