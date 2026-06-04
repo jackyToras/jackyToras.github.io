@@ -5,27 +5,28 @@ permalink: /
 subtitle: Backend Developer · <a href='https://www.juit.ac.in'>Jaypee University of Information Technology</a>
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
-  image_circular: false
+  image_circular: true
   more_info: >
-    <p>Raipur, Chhattisgarh, India</p>
+    <p><i class="fas fa-map-marker-alt"></i> Raipur, Chhattisgarh, India</p>
+    <p><a href="https://www.linkedin.com/in/utkarsh-s-973885316" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
+    <p><a href="https://github.com/jackyToras" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+    <p><a href="https://leetcode.com/u/Utkarshhh1605/" target="_blank"><i class="fas fa-code"></i> LeetCode</a></p>
+    <p><a href="https://codeforces.com/profile/Utkarsh1605" target="_blank"><i class="fas fa-laptop-code"></i> Codeforces</a></p>
+    <p><a href="https://x.com/Utkarshhh1605" target="_blank"><i class="fab fa-x-twitter"></i> X</a></p>
 
 news: false
 selected_papers: false
-social: true
+social: false
 ---
 
 Hey there! I'm **Utkarsh Shaning**, a pre-final year B.Tech Computer Science student at Jaypee University of Information Technology, Solan.
 
 I specialize in architecting highly scalable Microservices and robust Monolithic backends, with a focus on fault-tolerant, high-throughput distributed systems and event-driven architectures.
 
-**Usually getting my hands dirty with:**
+Usually getting my hands dirty with Event Streaming & Message Queues — decoupling high-volume workflows using RabbitMQ to achieve low-latency asynchronous processing and strict eventual consistency. Service Mesh & Orchestration — Service Discovery (Eureka Server), centralized API Gateways, dynamic Load Balancing, and containerized multi-node orchestration via Docker. Security & System Resilience — Enterprise IAM via Keycloak, JWT-based RBAC, circuit breaker mechanisms for fault tolerance and zero-downtime deployments.
 
-- **Event Streaming & Message Queues** — Decoupling high-volume workflows using RabbitMQ to achieve low-latency asynchronous processing and strict eventual consistency.
-- **Service Mesh & Orchestration** — Service Discovery (Eureka Server), centralized API Gateways, dynamic Load Balancing, and containerized multi-node orchestration via Docker.
-- **Security & System Resilience** — Enterprise IAM via Keycloak, JWT-based RBAC, circuit breaker mechanisms for fault tolerance and zero-downtime deployments.
+With a knack for building production-grade RAG pipelines, optimizing semantic search via vector databases, managing text chunking/embedding strategies, and designing custom chat model wrappers exposed through high-performance FastAPI endpoints and interactive Streamlit user interfaces to seamlessly bridge the gap between heavy enterprise backends and intelligent AI applications.
 
-Also passionate about building production-grade RAG pipelines, optimizing semantic search via vector databases, and designing custom AI application backends exposed through FastAPI and Streamlit interfaces.
-
-**Won 3rd Position (Innovation Award)** at Cyber AI Hackathon 2025 — University of Derby, UK (100+ teams).
+** Won 3rd Position (Innovation Award)** at Cyber AI Hackathon 2025 — University of Derby, UK, supported by American Society for Engineers, USA. Team Cyra (T-009) among 100+ teams. <a href="/assets/pdf/cyberai-hackathon-2025.pdf" target="_blank">Certificate</a>
