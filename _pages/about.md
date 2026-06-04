@@ -20,7 +20,7 @@ selected_papers: false
 social: false
 ---
 
-## About me
+<h4>About me</h4>
 Hey there! I'm **Utkarsh Shaning**, a pre-final year B.Tech Computer Science student at Jaypee University of Information Technology, Solan.
 
 I specialize in architecting highly scalable **Microservices** and robust Monolithic backends, with a focus on fault-tolerant, high-throughput **distributed systems** and **event-driven architectures**.
