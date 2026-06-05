@@ -24,7 +24,7 @@ nav_order: 2
 <h4>Distributed Task Queue System</h4>
 <div class="tech">Java · Spring Boot · RabbitMQ · Docker</div>
 <div class="links"><a href="https://github.com/jackyToras/Distributed-tasks-queue-system" target="_blank">GitHub</a></div>
-A distributed task queue built to process large volumes of background jobs without blocking the main application thread. Tasks are dropped into queues, worker nodes pick them up and process them independently in parallel with zero single point of failure. Messages are persisted to disk ensuring zero task loss. Multiple worker instances compete to consume messages with prefetch count configurations preventing overload. Failed tasks route to a Dead Letter Queue with configurable retry logic.
+Architected a high-throughput, distributed message queue designed to process heavy background workloads asynchronously without blocking the main application thread. Utilized a competing consumers pattern across multiple parallel worker nodes to ensure high availability and eliminate single points of failure. Engineered reliability into the pipeline by persisting tasks to a PostgreSQL database for durable storage and configuring RabbitMQ prefetch counts to prevent worker overload. Implemented automated fault handling by routing failed tasks to a Dead Letter Queue equipped with customizable retry logic.
 </div>
 </div>
 
@@ -33,7 +33,7 @@ A distributed task queue built to process large volumes of background jobs witho
 <h4>Scalable Microservices Salon Booking Platform</h4>
 <div class="tech">Spring Boot · RabbitMQ · React.js · MongoDB · API Gateway · Stripe · Keycloak · Docker</div>
 <div class="links"><a href="https://github.com/jackyToras/salon-appointment-system" target="_blank">GitHub</a></div>
-A production-grade microservices platform where each concern lives in its own independently deployable service. Every request hits the API Gateway first handling routing, rate limiting, and filtering. Eureka Server enables dynamic service registration with no hardcoded URLs. Booking confirmations publish events to RabbitMQ, Notification and Payment services consume independently and are fully decoupled. Stripe webhooks deliver real-time transaction events syncing booking state across distributed MongoDB instances. Keycloak handles authentication with JWT tokens and RBAC enforced across all services. OpenFeign clients with circuit breakers prevent cascading failures across the service mesh.
+Architected an production-grade, 9-service ecosystem featuring decoupled business domains for bookings, payments, and notifications. Configured a Spring Cloud Gateway to route traffic dynamically using Eureka service discovery while securing endpoints via Keycloak JWT authentication. Implemented asynchronous, event-driven communication using RabbitMQ to process background transactions without blocking core operations. Orchestrated the entire infrastructure using Docker Compose with strict health-check dependencies to ensure a fault-tolerant container startup sequence.
 </div>
 </div>
 
@@ -42,7 +42,7 @@ A production-grade microservices platform where each concern lives in its own in
 <h4>RAG Question Answering System</h4>
 <div class="tech">FastAPI · LangChain · ChromaDB · Python · Streamlit</div>
 <div class="links"><a href="https://github.com/jackyToras/mistral-rag-system" target="_blank">GitHub</a> <a href="https://qnaragsystem.streamlit.app/" target="_blank">Live</a></div>
-LLMs only know what they were trained on. RAG grounds the model in your actual documents eliminating hallucination. PDFs are chunked, embedded into high-dimensional vectors, and stored in ChromaDB for fast similarity search. Questions are embedded and ChromaDB finds the top-K most relevant chunks via cosine similarity. Retrieved chunks are injected into the prompt alongside the question so the model answers from your documents not hallucinated knowledge. The pipeline is exposed through FastAPI REST endpoints and a clean Streamlit chat interface for real-time document ingestion and conversational querying.
+A retrieval-augmented generation framework designed to ground LLMs in personal documents and eliminate hallucinations. PDF files are chunked, transformed into vector embeddings, and stored in ChromaDB. User questions are mapped via cosine similarity to fetch the top-K relevant document context for the prompt. The entire pipeline is exposed via FastAPI REST endpoints and an interactive Streamlit UI for chat querying.
 </div>
 </div>
 
@@ -51,6 +51,6 @@ LLMs only know what they were trained on. RAG grounds the model in your actual d
 <h4>Cyber AI Network Intrusion Detection System</h4>
 <div class="tech">Python · Scikit-learn · Pandas · NumPy · Streamlit</div>
 <div class="links"><a href="https://github.com/jackyToras/NetworkIDS" target="_blank">GitHub</a> <a href="https://mlnetworkids.streamlit.app" target="_blank">Live</a></div>
-Real-time ML-powered network intrusion detection classifying traffic flows as benign or malicious with 96.4% accuracy. Won 3rd Position (Innovation Award) at Cyber AI Hackathon 2025, University of Derby, UK among 100+ international teams. Trained on the CICIDS benchmark dataset covering DoS/DDoS, Botnet, Brute Force, and Port Scan attacks across 78+ network features. Random Forest ensemble of hundreds of decision trees with majority voting ensures robustness to noise. Stratified sampling and feature-importance scoring counter class imbalance inherent in real network traffic. Streamlit dashboard provides real-time classification with confidence scores and feature importance visualizations.
+An ML based network intrusion detection pipeline analyzing network traffic features to classify flows as benign or malicious with 96.4% accuracy. Trained on the CICIDS benchmark dataset, the system processes network flow characteristics—derived from packet capture (.pcap) or csv files—to detect major attack vectors including DoS/DDoS, Port Scans, Brute Force, and Botnets. Built using a robust Random Forest ensemble model with stratified sampling to counter inherent network class imbalances, the pipeline features a Streamlit dashboard visualizing feature importance scoring for transparent model inference. 
 </div>
 </div>
