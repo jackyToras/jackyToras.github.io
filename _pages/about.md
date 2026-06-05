@@ -30,4 +30,4 @@ Usually getting my hands dirty with Event Streaming & Message Queues — decoupl
 
 With a knack for building production-grade **RAG** pipelines, optimizing semantic search via vector databases, managing text chunking/embedding strategies, and designing custom chat model wrappers exposed through high-performance FastAPI endpoints and interactive Streamlit user interfaces to seamlessly bridge the gap between heavy enterprise backends and intelligent AI applications.
 
-** Won 3rd Position (Innovation Award)** at Cyber AI Hackathon 2025 — University of Derby, UK, supported by American Society for Engineers, USA. Team Cyra (T-009) among 100+ teams. <a href="/assets/pdf/cyberai-hackathon-2025.pdf" target="_blank">Certificate</a>
+**Won** **3rd** **Position** (Innovation Award) at **Cyber** **AI** **Hackathon** 2025 — University of Derby, UK, supported by American Society for Engineers, USA. Team Cyra (T-009) among 100+ teams. <a href="/assets/pdf/cyberai-hackathon-2025.pdf" target="_blank">Certificate</a>
