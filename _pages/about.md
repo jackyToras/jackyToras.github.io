@@ -20,7 +20,7 @@ selected_papers: false
 social: false
 ---
 
-<h4>About me</h4>
+##About me
 
 Hey there! I'm **Utkarsh Shaning**, a pre-final year B.Tech Computer Science student at Jaypee University of Information Technology, Solan.
 
