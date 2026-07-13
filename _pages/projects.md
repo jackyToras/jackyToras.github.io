@@ -35,7 +35,7 @@ Architected an production-grade, 9-service ecosystem featuring decoupled busines
 </div>
 <div class="project-row">
 <div class="project-content">
-<h4>RAG Question Answering System</h4>
+<h4>askPDF</h4>
 <div class="tech">FastAPI · LangChain · ChromaDB · Python · Streamlit</div>
 <div class="links"><a href="https://github.com/jackyToras/mistral-rag-system" target="_blank">GitHub</a> <a href="https://qnaragsystem.streamlit.app/" target="_blank">Live</a></div>
 A retrieval-augmented generation framework designed to ground LLMs in personal documents and eliminate hallucinations. PDF files are chunked, transformed into vector embeddings, and stored in ChromaDB. User questions are mapped via cosine similarity to fetch the top-K relevant document context for the prompt. The entire pipeline is exposed via FastAPI REST endpoints and an interactive Streamlit UI for chat querying.
