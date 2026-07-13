@@ -23,7 +23,7 @@ nav_order: 2
 <div class="project-content">
 <h4>Distributed Task Queue System</h4>
 <div class="tech">Java · Spring Boot · RabbitMQ · Docker</div>
-<div class="links"><a href="https://github.com/jackyToras/Distributed-tasks-queue-system" target="_blank">GitHub</a></div>
+<div class="links"><a href="https://github.com/jackyToras/Distributed-tasks-queue-system" target="_blank">GitHub</a> <a href="http://3.109.219.82:15672" target="_blank">Live</a></div></div>
 Architected a high-throughput, distributed message queue designed to process heavy background workloads asynchronously without blocking the main application thread. Utilized a competing consumers pattern across multiple parallel worker nodes to ensure high availability and eliminate single points of failure. Engineered reliability into the pipeline by persisting tasks to a PostgreSQL database for durable storage and configuring RabbitMQ prefetch counts to prevent worker overload. Implemented automated fault handling by routing failed tasks to a Dead Letter Queue equipped with customizable retry logic.
 </div>
 </div>
