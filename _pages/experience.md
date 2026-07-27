@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Experience
+title: experience
 permalink: /experience/
 nav: true
 nav_order: 3
