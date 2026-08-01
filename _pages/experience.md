@@ -53,7 +53,7 @@ nav_order: 3
   </div>
 
   <p>
-   Completed an on-campus research internship (1st June – 15th July 2026) in the Department of Computer Engineering under the supervision of Dr. Amandeep Kaur, Assistant Professor. Worked on "Machine Learning and Deep Learning-Based Detection of Aphids and Whiteflies in Potato Crops: A Systematic Literature Review," conducting a structured multi-database search across six digital libraries, screening and classifying 43 primary studies by algorithm category (CNN, Transfer Learning, YOLO, Vision Transformers), and analyzing accuracy-efficiency trade-offs for real-time pest detection architecture suited to field deployment.
+   Completed an on-campus research internship (1st June – 15th July 2026) in the Department of Computer Engineering under the supervision of Dr. Amandeep Kaur, Assistant Professor. Worked on "Machine Learning and Deep Learning-Based Detection of Aphids and Whiteflies in Potato Crops: A Systematic Literature Review," conducting a structured multi-database search across six digital libraries, screening and classifying 43 primary studies by algorithm category (CNN, Transfer Learning, YOLO, Vision Transformers), and analyzing accuracy efficiency trade-offs for real-time pest detection architecture suited to field deployment.
   </p>
 
   </div>
